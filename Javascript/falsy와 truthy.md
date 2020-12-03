@@ -42,7 +42,8 @@ NaN
 이외에는 모두 truthy이다.  
 
 # 주의할 점
-1. falsy의 정의를 어떻게 하냐에 따라 false의 포함 여부가 달라진다. (중요하진 않다.) 나는 falsy를 "boolean이 아닌 값을 억지로 boolean으로 만들었을 때 false를 내뱉는 값"라고 정의했기 때문에 false를 제외했다. false는 이미 boolean이기 때문이다.
+1. falsy를 어떻게 정의하냐에 따라 false의 포함 여부가 달라진다. (중요하진 않다.)  
+   나는 falsy를 "boolean이 아닌 값을 억지로 boolean으로 만들었을 때 false를 내뱉는 값"라고 정의했기 때문에 false를 제외했다. false는 이미 boolean이기 때문이다.
 2. 빈 문자열만 falsy이다. 빈 배열, 빈 객체는 falsy가 아니다.  
    
 # && 연산자와 만났을 때
