@@ -43,13 +43,14 @@ NaN
 
 # 주의할 점
 1. falsy를 어떻게 정의하냐에 따라 false의 포함 여부가 달라진다. (중요하진 않다.)  
-   나는 falsy를 "boolean이 아닌 값을 억지로 boolean으로 만들었을 때 false를 내뱉는 값"라고 정의했기 때문에 false를 제외했다. false는 이미 boolean이기 때문이다.
+   나는 falsy를 "boolean이 아닌 값을 억지로 boolean으로 만들었을 때 false를 내뱉는 값"라고 정의했기 때문에 false를 제외했다. false는 이미 boolean이기 때문이다.  
+   > MDN에서는 falsy를 "A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context."라고 정의하며 이에 따라 false도 falsy의 일종으로 포함시키고 있다.
 2. 빈 문자열만 falsy이다. 빈 배열, 빈 객체는 falsy가 아니다.  
    
 # && 연산자와 만났을 때
 && 논리 연산자는 '모든 값이 참일 때'에만 참이다.  
 값 하나라도 거짓이면 바로 거짓이다.  
-따라서 다음과 같이 && 연산자로 묶여있는 경우 falsy인 값이 있다면 처음으로 위치한 falsy값을 내뱉는다.
+따라서 다음과 같이 && 연산자로 묶여있는 경우, falsy인 값이 있다면 처음으로 위치한 falsy값이 튀어나온다.
 ```js
 false && "dog" // false
 
