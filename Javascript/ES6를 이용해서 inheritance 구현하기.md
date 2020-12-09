@@ -74,7 +74,6 @@ class Human {
   constructor(name) {
     this.name = name;
   }
-  // method는 언제나 constructor function 밖에서!
   sleep() {
     console.log(`사람이 잠을 자야지`);
   }
@@ -85,7 +84,6 @@ class Coder extends Human {
     super.sleep();
     console.log("맨날 피곤해...");
   }
-  // method는 언제나 constructor function 밖에서!
   code() {
     console.log(`코딩 재밌쪙~`);
   }
