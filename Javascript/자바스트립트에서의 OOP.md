@@ -19,7 +19,7 @@ prototype에 있는 메소드에 접근 가능하기 때문에 아무 array에�
 inheritance: 부모 class로부터 속성과 메소드를 자식 class가 물려받는 일.  
 prototypal inheritance: prototype과 연결된 object는 해당 prototype의 메소드에 접근 가능한 것. (마치 intance가 class로부터 물려받는 것으로 생각하면 됨.)
 
-![](https://miro.medium.com/max/700/1*dianRzNAQevG4-ZXUfxpDg.png)
+![](https://miro.medium.com/max/700/1*dianRzNAQevG4-ZXUfxpDg.png)  
 사진 출처 [YYCJS presents: JavaScript - The weird parts](https://www.youtube.com/watch?v=MihuqHhnFVo&list=PLi1YoijCHs8XjmuVv4Y4kDC2cOUZqjEIL&index=2)
 
 # 자바스크립트에서 Prototypal inheritance를 구현하는 방법
