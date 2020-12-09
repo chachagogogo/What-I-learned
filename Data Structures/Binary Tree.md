@@ -34,6 +34,8 @@ Binary Tree는 트리 구조의 일종이며, 부모 노드 하나당 자식 노
 
 ## Binary Seach Tree
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/200px-Binary_search_tree.svg.png)
+
 자식노드의 데이터 값이 부모노드보다 작으면 왼쪽으로, 크면 오른쪽으로 가지치기를 한다.
 
 ## Full Binary Tree
