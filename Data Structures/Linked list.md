@@ -1,3 +1,5 @@
+# 작성중! 아직 완료되지 않은 글입니다!
+
 # Reference
 
 [JavaScript Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA&list=WL&index=2)  
