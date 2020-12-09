@@ -24,7 +24,9 @@ john이라는 객체에 해당 메소드가 있는지 확인한다.
 -> 없으면 john 객체의 프로토타입에 해당 메소드가 있는지 확인한다.  
 -> 없으면 Object.prototype에 해당 메소드가 있는지 확인한다.
 
-Object.prototype에는 수많은 내장 메소드가 있다. .hasOwnProperty라는 메소드도 그 중 하나이다.  
+이렇게 **prototypal inheritance** 과정을 거쳐서 Object.prototype의 메소드에 접근하게 된다.
+
+Object.prototype에는 이미 수많은 내장 메소드가 있으며 hasOwnProperty라는 메소드도 그 중 하나이다.  
 그렇기 때문에 콘솔로그가 정상적으로 작동한 것이다.
 
 ---
@@ -61,9 +63,13 @@ console.log(typeof Object.prototype); // 'object'
 이 객체(Object.prototype) 또한 프로토타입이 있을까?
 아니다. null이 나온다.
 
----
+```js
+console.log(john.__proto__); // john의 prototype이 쭉 나온다.
+console.log(john.__proto__.__proto__); // john을 찍어낸 constructor function의 prototype(Object.prototype)이 쭉 나온다.
+console.log(john.__proto__.__proto__.__proto__); // null
+```
 
-간단하게 도식화하면 이렇다.
+# 도식화
 
 Person()이라는 constructor function을 이용해 찍어낸 객체  
 ---(prototypal inheritance / delegation)--->  
