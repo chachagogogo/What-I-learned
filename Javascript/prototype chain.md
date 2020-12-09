@@ -5,7 +5,7 @@ const Person = function () {};
 const john = new Person(john);
 ```
 
-이렇게 만들어낸 객체의 프로토타입은 Person.prototype이다.
+이렇게 만들어낸 객체(john)의 프로토타입은 Person.prototype이다.
 
 ```js
 console.log(Person.prototype.isPrototypeOf(john)); //true
