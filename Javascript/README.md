@@ -10,6 +10,8 @@
 | 5   | [자바스크립트에서의 OOP](자바스트립트에서의%20OOP.md)                                                               |
 | 6   | [constructor function과 prototype으로 함수 찍어내기](constructor%20function과%20prototype으로%20함수%20찍어내기.md) |
 | 7   | [prototype chain](prototype%20chain.md)                                                                             |
+| 8   | [pseudoclassical한 방식으로 inheritance 구현하기](pseudoclassical한%20방식으로%20inheritance%20구현하기.md)         |
+| 9   | [ES6를 이용해서 inheritance 구현하기](ES6를%20이용해서%20inheritance%20구현하기.md)                                 |
 
 ---
 
