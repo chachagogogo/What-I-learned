@@ -1,5 +1,13 @@
 (이 글을 읽기 전에 먼저 [pseudoclassical한 방식으로 inheritance 구현하기](pseudoclassical한%20방식으로%20inheritance%20구현하기.md)를 읽으세요~)
 
+# Class의 3가지 특징
+
+중요하니깐 가장 위에 서술하고 설명은 나중에 하겠다.
+
+1. Class는 hoist되지 않는다. (function declaration으로 해도 그렇다.)
+2. Class는 first-class citizen이다. (class는 function의 한 형태이기 때문이다.)
+3. Class는 strict mode로 작동한다.
+
 ES6를 이용해서 inheritance를 구현하는 일은 정말 쉽다.  
 아래와 같이 작성하면 끝이다.
 
