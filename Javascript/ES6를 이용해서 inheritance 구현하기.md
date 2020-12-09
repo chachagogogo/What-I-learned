@@ -15,6 +15,7 @@ class Human {
 }
 
 class Coder extends Human {
+  // 부모 class의 property를 동일하게 물려받는다면 아래의 constructor(name) 블록은 생략 가능
   constructor(name) {
     super(name); //this의 포인터를 맞춰주기 위해 super(parameter)를 쓴다.
   }
@@ -58,4 +59,45 @@ Human {name: "조여사"}
         constructor: ƒ (name)
         __proto__: Object
 
+```
+
+# polymorphism
+
+내친 김에 polymorphism도 조금 보자.  
+polymorphism이란 상속받은 메소드를 자식 class가 덮어쓰는 것을 말한다.  
+([객체 지향 프로그래밍](객체%20지향%20프로그래밍.md) 글을 참고하세요~)
+super 키워드를 이용하면 된다.  
+(super: 부모 객체 함수에 접근하거나 호출할 때 사용하는 키워드)
+
+```js
+class Human {
+  constructor(name) {
+    this.name = name;
+  }
+  // method는 언제나 constructor function 밖에서!
+  sleep() {
+    console.log(`사람이 잠을 자야지`);
+  }
+}
+
+class Coder extends Human {
+  sleep() {
+    super.sleep();
+    console.log("맨날 피곤해...");
+  }
+  // method는 언제나 constructor function 밖에서!
+  code() {
+    console.log(`코딩 재밌쪙~`);
+  }
+}
+```
+
+확인해보자.
+
+```js
+const me = new Coder("해승");
+
+console.log(me.sleep());
+//사람이 잠을 자야지
+//맨날 피곤해...
 ```
