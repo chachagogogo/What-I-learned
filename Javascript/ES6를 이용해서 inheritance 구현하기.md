@@ -88,6 +88,7 @@ class Human {
 }
 
 class Coder extends Human {
+  Human.call(this) // this의 포인터를 맞춰줌.
   sleep() {
     super.sleep();
     console.log("맨날 피곤해...");

@@ -41,7 +41,7 @@ const Human = function (name) {
 };
 
 const Coder = function (name) {
-  Human.call(this.name); //this의 포인터를 맞춰줘야 한다.
+  Human.call(this); //this의 포인터를 맞춰줘야 한다.
   this.name = name;
 };
 
