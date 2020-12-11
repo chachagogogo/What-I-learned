@@ -13,6 +13,7 @@
 | 8   | [pseudoclassical한 방식으로 inheritance 구현하기](pseudoclassical한%20방식으로%20inheritance%20구현하기.md)                     |
 | 9   | [ES6로 prototypal inheritance 구현하기](ES6로%20prototypal%20inheritance%20구현하기.md)                                         |
 | 10  | [Object.create()로 prototypal inheritance 구현하기](<Object.create()로%20prototypal%20inheritance구현하기.md>)                  |
+|11|[getter와 setter](getter와%20setter.md)|
 
 ---
 
