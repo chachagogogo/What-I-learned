@@ -2,8 +2,6 @@ module.exports는 객체이다.
 exports는 module.exports를 가리키는 참조값이다.  
 module.exports.x = 30이라는 라인을 쓰면, {x: 30}이라는 module.exports 객체가 생기는 것이다.
 
-### 답은 글 하단에 적어뒀다.
-
 # 1.
 
 Assume you have the following in **subject.js**:
@@ -43,7 +41,7 @@ exports.x = 20;
 module.exports.x = 30;
 ```
 
-After s**ubject.js** runs, what will be the value of result?
+After **subject.js** runs, what will be the value of result?
 
 {x: 20}이었지만 {x: 30}으로 값이 바뀌었다. (object는 reference type이므로)  
 따라서 x는 30이다.
