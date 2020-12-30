@@ -15,7 +15,7 @@
 | 10  | [Object.create()로 prototypal inheritance 구현하기](<Object.create()로%20prototypal%20inheritance구현하기.md>)                  |
 | 11  | [getter와 setter](getter와%20setter.md)                                                                                         |
 | 12  | [자바스크립트 개발 과정](자바스크립트%20개발%20과정.md)                                                                         |
-| 13  | [module.exports와 exports](/What-I-learned/Javascript/module.exports와%20exports.md)                                            |
+| 13  | [module.exports와 exports](module.exports와%20exports.md)                                                                       |
 
 ---
 
