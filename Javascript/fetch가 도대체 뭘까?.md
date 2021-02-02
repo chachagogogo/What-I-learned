@@ -24,7 +24,7 @@ fetch(URI)
 fetch로 서버에서 받아온 response도 마찬가지이다.  
 response에는 headers와 status, type, url 등 각종 정보가 들어 있다. (https://developer.mozilla.org/en-US/docs/Web/API/Response)
 
-## 상자를 뜯자
+## 상자를 뜯자(JSON화)
 
 우리가 필요한 내용물을 쓰기 위해서는 택배 상자를 뜯어야 한다.  
 내용물을 얻는 방법은 .json() 메소드를 쓰면 된다.  
