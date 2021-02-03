@@ -18,6 +18,8 @@
 | 13  | [module.exports와 exports](module.exports와%20exports.md)                                                                       |
 | 14  | [event loop](event%20loop.md)                                                                                                   |
 | 15  | [fetch가 도대체 뭘까](fetch가%20도대체%20뭘까.md)                                                                               |
+| 16  | [비동기 에러 핸들링](비동기%20에러%20핸들링.md)                                                                                 |
+| 17  | [HTTP request methods](HTTP%20request%20methods.md)                                                                             |
 
 ---
 
