@@ -20,6 +20,7 @@
 | 15  | [fetch가 도대체 뭘까](fetch가%20도대체%20뭘까.md)                                                                               |
 | 16  | [비동기 에러 핸들링](비동기%20에러%20핸들링.md)                                                                                 |
 | 17  | [HTTP request methods](HTTP%20request%20methods.md)                                                                             |
+| 18  | [JSON이 뭘까](JSON이%20뭘까.md)                                                                                                 |
 
 ---
 
