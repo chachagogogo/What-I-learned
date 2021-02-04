@@ -71,3 +71,11 @@ http://www.google.com/search?q=puppies#p2 이 URL에서 origin은?
 
 클라이언트가 서버에 요청을 보낼 때 쿠키(클라이언트쪽 인증 수단)를 함께 보내는 방식이다.  
 서버가 응답시 보내는 헤더에 "access-control-allow-credentials:true"가 반드시 있어야 한다.
+
+# 더 알아보기
+
+[MDN - Cross-site scripting](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)  
+[MDN - CSRF](https://developer.mozilla.org/en-us/docs/Glossary/CSRF)  
+[MDN - Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)  
+[MDN - Origin](https://developer.mozilla.org/en-US/docs/Glossary/Origin)  
+[Youtube - [10분 테코톡] 🤠럿고의 CORS](https://www.youtube.com/watch?v=7iGIfcEsc2g&ab_channel=%EC%9A%B0%EC%95%84%ED%95%9CTech)
