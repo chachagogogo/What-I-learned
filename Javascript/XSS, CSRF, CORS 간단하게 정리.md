@@ -58,8 +58,10 @@ http://www.google.com/search?q=puppies#p2 이 URL에서 origin은?
 ## preflighted request
 
 클라이언트가 서버에 데이터를 달라고 요청을 하면 곧장 GET을 하는 게 아니라, 동일 출처인지를 확인하기 위해 브라우저가 서버에 예비 요청을 보낸다. 이것이 preflighted request다.  
-예비 요청은 OPTIONS 메소드를 통해 이루어진다.  
-브라우저는 요청의 origin과 응답의 access-control-allow-origin이 일치하는지로 동일출처를 판단한다.  
+예비 요청은 OPTIONS 메소드를 통해 이루어진다.
+
+브라우저는 요청의 origin과 응답의 access-control-allow-origin이 일치하는지로 동일출처여부를 판단한다.
+
 출처가 같으면 본 요청과 본 응답이 오고 간다.
 
 ## simple request
@@ -67,10 +69,14 @@ http://www.google.com/search?q=puppies#p2 이 URL에서 origin은?
 예비 요청 없이 바로 본 요청, 본 응답이 오고 가는 방법이다.  
 그렇기 때문에 당연히도 제약사항이 많다.
 
+브라우저는 요청의 origin과 응답의 access-control-allow-origin이 일치하는지로 동일출처여부를 판단한다.
+
 ## request with credentials
 
 클라이언트가 서버에 요청을 보낼 때 쿠키(클라이언트쪽 인증 수단)를 함께 보내는 방식이다.  
 서버가 응답시 보내는 헤더에 "access-control-allow-credentials:true"가 반드시 있어야 한다.
+
+브라우저는 요청의 origin과 응답의 access-control-allow-origin이 일치하는지로 동일출처여부를 판단한다.
 
 # 더 알아보기
 
