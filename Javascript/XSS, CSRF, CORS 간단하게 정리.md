@@ -78,4 +78,5 @@ http://www.google.com/search?q=puppies#p2 이 URL에서 origin은?
 [MDN - CSRF](https://developer.mozilla.org/en-us/docs/Glossary/CSRF)  
 [MDN - Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)  
 [MDN - Origin](https://developer.mozilla.org/en-US/docs/Glossary/Origin)  
+[MDN- OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)  
 [Youtube - [10분 테코톡] 🤠럿고의 CORS](https://www.youtube.com/watch?v=7iGIfcEsc2g&ab_channel=%EC%9A%B0%EC%95%84%ED%95%9CTech)
