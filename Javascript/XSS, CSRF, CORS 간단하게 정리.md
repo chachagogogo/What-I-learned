@@ -78,6 +78,15 @@ http://www.google.com/search?q=puppies#p2 이 URL에서 origin은?
 
 브라우저는 요청의 origin과 응답의 access-control-allow-origin이 일치하는지로 동일출처여부를 판단한다.
 
+# 다른 출처는 어떻게 허용할까?
+
+서버가 응답할 때 보내는 헤더에서 Access-Control-Allow-Origin에 허용하는 출처를 적으면 된다.
+
+예시)  
+Access-Control-Allow-Origin: https://developer.mozilla.org
+
+origin 자리에 별표, 이른바 와일드카드("\*")를 기입하면 모든 출처를 허용하게 된다. 하지만 request with credentials 방식에서는 이것이 허용되지 않는다.
+
 # 더 알아보기
 
 [MDN - Cross-site scripting](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)  
