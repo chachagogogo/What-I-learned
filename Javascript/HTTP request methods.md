@@ -41,6 +41,7 @@
 ### OPTIONS
 
 -   OPTIONS 메서드는 목적 리소스의 통신을 설정하는 데 쓰입니다.
+-   CORS의 preflighted request에서 사용되는 메소드이다. [CORS 설명](XSS,%20CSRF,%20CORS%20간단하게%20정리.md)
 
 ### TRACE
 
