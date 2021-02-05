@@ -1,6 +1,6 @@
 Node.js에서 서버로 들어오는 request를 처리하다 보면 buffer를 마주치게 된다.
 
-nodejs.org에서 정의한 buffer는 이렇다.
+nodejs.org에서 buffer 관련 문서를 보면 이렇게 서술되어 있다.
 
 > Where You See Buffers:  
 > In the wild, buffers are usually seen in the context of binary data coming from streams, such as fs.createReadStream.  
