@@ -22,6 +22,7 @@
 | 17  | [HTTP request methods](HTTP%20request%20methods.md)                                                                             |
 | 18  | [JSON이 뭘까](JSON이%20뭘까.md)                                                                                                 |
 | 19  | [XSS, CSRF, CORS 간단하게 정리](XSS,%20CSRF,%20CORS%20간단하게%20정리.md)                                                       |
+| 20  | [NodeJs에서 buffer, stream이 뭘까](NodeJs에서%20buffer,%20stream이%20뭘까.md)                                                   |
 
 ---
 
