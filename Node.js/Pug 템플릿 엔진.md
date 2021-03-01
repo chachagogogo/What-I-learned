@@ -9,7 +9,9 @@ app.use((req, res, next) => {
 });
 ```
 
-res.sendFile 대신 res.render를 하면 되는데 객체를 만들어서 value를 넘겨줄 수 있다.  
+res.sendFile 대신 res.render를 하면 되는데  
+첫번째 인자로는 pug파일명을 써주면 된다.(확장자는 생략)  
+두번째 인자로는 객체를 만들어서 value를 넘겨줄 수 있다.  
 받을 때에는 #{키값}으로 받으면 된다.
 
 자주 쓰는 레이아웃을 저장한 뒤에 바꾸고 싶은 내용만 block 키워드를 통해 고칠 수 있다.  
@@ -29,6 +31,8 @@ html(lang="en")
     body
         block content
 ```
+
+div는 생략 가능하며, class는 .으로 표기한다. attributes 사이에는 ,를 적어줘야 하며 ()로 감싸줘야 한다. 특별히 들여쓰기에 주의하자.
 
 ```js
 // 404.pug
