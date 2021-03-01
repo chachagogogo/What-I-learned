@@ -1,4 +1,5 @@
 html 파일을 동적으로 렌더링을 하고자 한다면 Pug이라는 템플릿 엔진을 사용하면 된다.
+(express를 사용한다면 pug는 따로 require를 할 필요가 없다. npm i pug 하고 바로 사용하면 된다.)
 
 ```js
 app.set('view engine', 'pug');
