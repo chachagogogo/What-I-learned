@@ -21,7 +21,7 @@ const shopRoutes = require('./routes/shop');
 app.use(shopRoutes);
 ```
 
-핸들바 템플릿 엔전은 이렇게 해주면 된다.  
+핸들바 템플릿 엔진은 이렇게 해주면 된다.  
 layoutsDir, defaultLayout: 레이아웃의 경로를 써준다.  
 extname: 특이하게도 확장자명을 직접 설정해줘야 한다.
 
@@ -74,7 +74,7 @@ res.render의 첫번째 인자는 경로이다. (확장자는 적지 않는다.)
 ```
 
 hbs 파일에서는 {{}}을 이용한다.  
-{{#if}} {{else}} {{/if}}, {{#each}} {{/each}}를 기억하자.
+{{#if}} {{else}} {{/if}}, {{#each}} {{/each}}를 기억하자.  
 특이한 점은 조건절을 true/false로 나타내줘야 한다는 점이다.
 
 # 더 알아보기
