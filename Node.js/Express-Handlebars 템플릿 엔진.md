@@ -75,3 +75,8 @@ res.render의 첫번째 인자는 경로이다. (확장자는 적지 않는다.)
 
 hbs 파일에서는 {{}}을 이용한다.  
 {{#if}} {{else}} {{/if}}, {{#each}} {{/each}}를 기억하자.
+
+# 더 알아보기
+
+[Handlebars 공식 홈페이지](https://handlebarsjs.com/)  
+[Handlebars 깃헙](https://github.com/handlebars-lang/handlebars.js)

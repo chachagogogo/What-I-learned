@@ -43,3 +43,8 @@ block content
     h1 Page Not Found!
 
 ```
+
+# 더 알아보기
+
+[Pug 공식 홈헤이지](https://pugjs.org/)  
+[Pug 깃헙](https://github.com/pugjs/pug)
